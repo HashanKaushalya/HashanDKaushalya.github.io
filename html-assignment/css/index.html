@@ -1,41 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Assignment</title>
-</head>
-<body>
-    <h1> Hashan Kaushalya</h1>
-    <h2> About Me </h2>
-    <article>
-        <p>Hi, my name is Hashan Kaushalya, but I go as <em>'Jason'</em>. I love <abbr title="UX (user experience) and UI (user interface)">UI/UX</abbr> and have a passion to work on that field. Currently I'm a full time student at Algonquin College, following <strong> "Interactive Media Design" </strong> course. My birthday is on the 29<sup>th</sup> of July. I'm from Sri Lanka and enjoying my time at canada and the cold weather.
-        </p>
-
-        <img src="images/jayson.jpg" alt="Jayson Cartoon Pic" title="Jayson's Pic">
-        <p>
-            Previously I was a Digital Designer at <abbr title="The Hongkong and Shanghai Banking Corporation Limited">HSBC Bank</abbr> I got the privilidge of working global projects for HSBC worldwide. I have learnt and improved myself by working with teams and individually.
-        </p>
-        <h2> My Hobbies</h2>
-        <ul>
-            <li> Watching Movies & TV Series</li>
-            <li> Playing PS5 </li>
-        </ul>
-        <p>
-            The best motivational quote:
-            <blockquote>
-                " When you compete against everyone else, no one wants to help you. But when you compete against yourself, everyone wants to help you." - <cite> Simon Sinekk </cite>
-            </blockquote>
-        </p>
-        <p> Learn about HTML Notes <a href="notes.html">notes</a> </p>
-    
-    </article>
-<footer>
-    <p>&copy; Copyright 2023 Jason Inc. All rights reserved.</p>
-    <address> 623C Chapman Mills drive Nepean ON </address>
-</footer>
-
-    
-</body>
-</html>
+body{
+    font-family: Arial, Helvetica, sans-serif
+    font size 18px;
+}
+header, footer{
+    background-color: aqua;
+}
+.site-title{
+    color: blue;
+}
+#my-image{
+    box-shadow: 0px 0px 2px 1px black;
+}
+ul{
+    list-style-type: square;
+}
+li:nth-child(odd) {
+    background: teal;
+}
+a:link {
+    text-decoration: none;
+    background: teal;
+    border: lightgreen;
+}
+.notes-link:hover{
+    cursor: pointer;
+    color: green;
+}
