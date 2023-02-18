@@ -22,7 +22,7 @@ a:link {
     background: teal;
     border: lightgreen;
 }
-.notes-link:hover{
+.notes-link:hover {
     cursor: pointer;
     color: yellow;
 }
