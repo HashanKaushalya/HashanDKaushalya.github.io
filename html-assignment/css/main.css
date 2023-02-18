@@ -1,17 +1,18 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif
     font size 18px;
 }
 header, footer{
     background-color: aqua;
 }
-.site-title{
-    color: greenyellow;
+
+.site-title {
+    color: rgb(0, 0, 0);
 }
 #my-image{
     box-shadow: 0px 0px 2px 1px black;
 }
-ul{
+ul {
     list-style-type: square;
 }
 li:nth-child(odd) {
@@ -19,8 +20,8 @@ li:nth-child(odd) {
 }
 a:link {
     text-decoration: none;
-    background: blueviolet;
-    border: lightgreen;
+    background: aqua;
+    border: rgb(10, 120, 10);
 }
 .notes-link:hover {
     cursor: pointer;
