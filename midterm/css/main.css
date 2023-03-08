@@ -4,10 +4,12 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   
+  /* changing the background to light blue */
   body {
     background-color: #AAD4CF;
   }
   
+  /* setting the container color and padding and margins */
   .container {
     background-color: #D5EAE7;
     padding-right: 15px;
@@ -16,6 +18,7 @@
     margin-left: auto;
   }
   
+  /* setting the flex container in one line and setting font size */
   .flex-container {
     display: flex;
     flex-direction: row;
@@ -23,27 +26,31 @@
     text-align: center;
   }
   
+  /* setting the padding 10px and flex 33.33% in "Home navigation" so it starts with 33% of the total page width */
   .flex-item {
     padding: 10px;
     flex: 33.33%;
   }
   
+  /* setting the padding 10px and flex 50px in "Story navigation" so it starts with 50% of the total page width */
   .flex-item_1 {
     padding: 10px;
     flex: 50%;
   }
   
+   /* setting the padding 10px and flex 50% in "Contact navigation" so it starts with 50% of the total page width */
   .flex-item-right {
     background-color: dodgerblue;
     padding: 10px;
     flex: 50%;
   }
   
+   /* align lone starfish text to the center */
   .text-center {
     text-align: center;
   }
   
-  /* Header section */
+  /* header image section styling link image url, set height, bg position to center, position to relative*/
   .header_img {
     background-image: url("../images/lone-starfish-wide.jpg");
     height: 300px;
@@ -52,6 +59,7 @@
     background-repeat: no-repeat;
   }
   
+ 
   header h2 {
     color: white;
     position: absolute;
@@ -60,13 +68,14 @@
     font-weight: bold;
     transform: translateY(-50%);
   }
-  
+
+  /* Adding border width and color of the border menu */
   .menu_border {
     border-left: 2px solid #808080;
     border-right: 2px solid #808080;
   }
   
-  /* hero section */
+  /* main body section float it tp left so that it will wrap with the starfish image */
   .main_section .main_content img {
     float: left;
     margin: 0 20px 20px;
@@ -76,6 +85,7 @@
     font-size: 19px;
   }
   
+  /* Put content section after text wrap around the starfish image */
   .main_content::after {
     content: "";
     clear: both;
@@ -132,6 +142,7 @@
     text-align: right;
   }
   
+  /* Adding Footer section padding*/
   .footer_section p {
     padding: 10px 10px 20px;
   }
