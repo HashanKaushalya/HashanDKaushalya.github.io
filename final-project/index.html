@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--Font awesome link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  <!--External Css link-->
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Website</title>
+</head>
+<body>
+  <!--Here containner-fluid class used for taking full screen and bg-black for background-->
+  <div class="container-fluid bg-black">
+    <!--Container class used for content will take make max-width: 1140px-->
+    <div class="container">
+      <!--Header Start-->
+      <header>
+        <!--This div for logo-->
+        <div class="logo">
+          <img src="./img/logo.png" alt="Logo" />
+        </div>
+        <!--In nav ul li I added all navigation menu-->
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <!--In search box div I added input tag for taking input and a button for submit and add a icon from font awesome-->
+        <div class="search-box">
+          <input type="text" placeholder="Search" />
+          <button type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </header>
+    </div>
+    <!--Hero Section Start-->
+    <section class="hero">
+      <!--Discussed-->
+      <div class="container">
+        <!--Here simply used in hero content element one title peragraph and button-->
+        <div class="hero-content">
+          <h1>Welcome to Three Star Media</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            vehicula nisl tortor, at tristique nisi elementum vel. Quisque nec
+            fermentum magna. Suspendisse potenti.
+          </p>
+          <a href="#" class="btn_h">Connect with us <i class="fa-solid play_icon fa-play"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!--About Section start-->
+    <!--In the about us section I used section tag for each section I used same section tag
+with their unique class name for styling
+-->
+    <section class="about-us bg-about">
+      <!--Here in about us container I write two div for devision 
+      I used flex for it you will see in css file
+      -->
+      <div class="about-us-container container">
+
+        <div class="about-us-image">
+          <img src="./img/about-us.jpg" alt="About Us Image" />
+        </div>
+        <!--In the about us content there are some content of it-->
+        <div class="about-us-content">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            vehicula nisl tortor, at tristique nisi elementum vel. Quisque nec
+            fermentum magna. Suspendisse potenti.at tristique nisi elementum
+            vel. Quisque nec fermentum magna. Suspendisse potenti.at tristique
+            nisi elementum vel. Quisque nec
+          </p>
+          <p>
+            Mauris condimentum leo vel ligula volutpat, ut efficitur lorem
+            faucibus. Nam viverra odio sit amet dolor mollis, sed pulvinar
+            nisi efficitur. In euismod leo ut enim maximus elementum.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!--Service section start-->
+    <section class="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <!--Here are two markup fist card wrapper for showing two card in a row-->
+        <div class="card-wrapper">
+          <div class="card row1">
+            <img src="./img/digital.jpg" alt="digital" />
+            <div class="card-body">
+              <h3>Digital Transformation</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Nullam auctor, eros at mattis sollicitudin, nisl est molestie
+                lorem, vel posuere arcu nisi eget tellus. Nullam auctor, eros
+                at mattis sollicitudin, nisl est molestie lorem, vel posuere
+                arcu nisi eget tellus.
+              </p>
+              <a href="#" class="btn">Digital Plans <i class="fa-solid card_icon fa-play"></i></a>
+            </div>
+          </div>
+          <div class="card row1">
+            <img src="./img/marketing.jpg" alt="marketing" />
+            <div class="card-body">
+              <h3>Marketing</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Nullam auctor, eros at mattis sollicitudin, nisl est molestie
+                lorem, vel posuere arcu nisi eget tellus. Nullam auctor, eros
+                at mattis sollicitudin, nisl est molestie lorem, vel posuere
+                arcu nisi eget tellus.
+              </p>
+              <a href="#" class="btn">Marketing Plans <i class="fa-solid card_icon fa-play"></i></a>
+            </div>
+          </div>
+        </div>
+        <!--And this seconnd one for three card in a row-->
+
+        <!--Each row has uniqe class name like(row1,row2) cause their style are different-->
+        <div class="card-wrapper" style="margin-top: 10px">
+          <div class="card row2">
+            <img src="./img/video.jpg" alt="Video Production" />
+            <div class="card-body">
+              <h3>Video Plans</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Nullam auctor, eros at mattis sollicitudin, nisl est molestie
+                lorem, vel posuere arcu nisi eget tellus. Nullam auctor, eros
+                at mattis sollicitudin, nisl est molestie lorem, vel posuere
+                arcu nisi eget tellus.
+              </p>
+              <a href="#" class="btn">Marketing Plans <i class="fa-solid card_icon fa-play"></i></a>
+            </div>
+          </div>
+          <div class="card row2">
+            <img src="./img/web.jpg" alt="Web Development" />
+            <div class="card-body">
+              <h3>Web Development</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Nullam auctor, eros at mattis sollicitudin, nisl est molestie
+                lorem, vel posuere arcu nisi eget tellus. Nullam auctor, eros
+                at mattis sollicitudin, nisl est molestie lorem, vel posuere
+                arcu nisi eget tellus.
+              </p>
+              <a href="#" class="btn">Web Plans <i class="fa-solid card_icon fa-play"></i></a>
+            </div>
+          </div>
+          <div class="card row2">
+            <img src="./img/print.jpg" alt="Print" />
+            <div class="card-body">
+              <h3>Print</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Nullam auctor, eros at mattis sollicitudin, nisl est molestie
+                lorem, vel posuere arcu nisi eget tellus. Nullam auctor, eros
+                at mattis sollicitudin, nisl est molestie lorem, vel posuere
+                arcu nisi eget tellus.
+              </p>
+              <a href="#" class="btn">Print Plans <i class="fa-solid card_icon fa-play"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Vison section start-->
+    <!--It's simple section with background image with few content-->
+    <section class="vison">
+      <div class="container">
+        <div class="vison-content">
+          <h1>Our Vision</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            vehicula nisl tortor, at tristique nisi elementum vel. Quisque nec
+            fermentum magna. Suspendisse potenti.
+          </p>
+          <a href="#" class="btn_v">Learn More <i class="fa-solid play_icon_v fa-play"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!--Team section start-->
+    <!--This section are similar like about us section just two row and image in first and images in last 
+    that's all 
+    -->
+    <section class="team white-bg">
+      <div class="container">
+        <h2 class="title">Our Team</h2>
+        <div class="team-container bg-about">
+          <div class="team-image">
+            <img src="./img/john.jpg" alt="About Us Image" />
+          </div>
+          <div class="team-content">
+            <div class="team_margin">
+              <h2>John Doe</h2>
+              <h3>CEO and Co-owner</h3>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                vehicula nisl tortor, at tristique nisi elementum vel. Quisque
+                nec fermentum magna. Suspendisse potenti.at tristique nisi
+                elementum vel. Quisque nec fermentum magna. Suspendisse
+                potenti.at tristique nisi elementum vel. Quisque nec
+              </p>
+            </div>
+          </div>
+
+          <div class="team-content order">
+            <div class="team_margin">
+              <h2>Bob Rite</h2>
+              <h3>CEO and Co-owner</h3>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                vehicula nisl tortor, at tristique nisi elementum vel. Quisque
+                nec fermentum magna. Suspendisse potenti.at tristique nisi
+                elementum vel. Quisque nec fermentum magna. Suspendisse
+                potenti.at tristique nisi elementum vel. Quisque nec
+              </p>
+            </div>
+          </div>
+          <div class="team-image">
+            <img src="./img/bob.jpg" alt="About Us Image" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Contact section start-->
+    <section class="contact white-bg">
+      <div class="container">
+        <h2 class="title">Contact Us</h2>
+        <div class="contact-container">
+          <div class="contact-form">
+            <h3>Send us a message</h3>
+            <!--Here I used form tag and few input tag for creating form -->
+            <form action="" method="POST">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" required />
+
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" required></textarea>
+
+              <button type="submit">Send</button>
+            </form>
+          </div>
+          <!--And here location-->
+          <div class="contact-content order">
+            <h3>Location</h3>
+            <!--I used google map embedded code to show this map -->
+            <div class="contact_margin">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5430.497231558982!2d-75.75536152352046!3d45.34568943782201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sbd!4v1680599254311!5m2!1sen!2sbd"
+                width="100%" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          <!--then I use html table for showing the openign hours-->
+          <div class="table">
+            <h2>Hours of operation</h2>
+            <table cellspacing="0" border="1">
+              <tr class="table_title bg-about">
+                <td>Days</td>
+                <td>Hours</td>
+              </tr>
+              <tr>
+                <td>Monday - Friday</td>
+                <td>9 AM - 6 PM</td>
+              </tr>
+              <tr>
+                <td>Saturday - Sunday</td>
+                <td>Closed</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--And here simply copyright content with p tag-->
+    <section>
+      <div class="container copyright_content">
+        <p>&copy; Copyright Three Star Media, 2020</p>
+        <p>All images are taken from <a href="#">Unsplash</a></p>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
