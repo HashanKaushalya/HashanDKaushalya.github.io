@@ -7,7 +7,7 @@
   <!--Font awesome link-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <!--Css link-->
-  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/style.css"/>
   <title>Website</title>
 </head>
 <body>
@@ -58,13 +58,10 @@
     </section>
 
     <!--About Section start-->
-    <!--In the about us section I used section tag for each section I used same section tag
-with their unique class name for styling
--->
+    <!--In the about us section I used section tag for each section I used same section tag with their unique class name for styling-->
     <section class="about-us bg-about">
       <!--Here in about us container I write two div for devision 
-      I used flex for it you will see in css file
-      -->
+      I used flex for it you will see in css file-->
       <div class="about-us-container container">
 
         <div class="about-us-image">
@@ -125,7 +122,7 @@ with their unique class name for styling
             </div>
           </div>
         </div>
-        <!--And this seconnd one for three card in a row-->
+        <!--And this second one for three card in a row-->
 
         <!--Each row has uniqe class name like(row1,row2) cause their style are different-->
         <div class="card-wrapper" style="margin-top: 10px">
@@ -191,9 +188,7 @@ with their unique class name for styling
     </section>
 
     <!--Team section start-->
-    <!--This section are similar like about us section just two row and image in first and images in last 
-    that's all 
-    -->
+    <!--This section are similar like about us section just two row and image in first and images in last that's all-->
     <section class="team white-bg">
       <div class="container">
         <h2 class="title">Our Team</h2>
@@ -243,7 +238,7 @@ with their unique class name for styling
         <div class="contact-container">
           <div class="contact-form">
             <h3>Send us a message</h3>
-            <!--Here I used form tag and few input tag for creating form -->
+            <!--Here I used form tag and few input tag for creating form-->
             <form action="" method="POST">
               <label for="name">Full Name</label>
               <input type="text" id="name" name="name" required/>
@@ -263,13 +258,27 @@ with their unique class name for styling
             <!--I used google map embedded code to show this map -->
             <div class="contact_margin">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5430.497231558982!2d-      75.75536152352046!3d45.34568943782201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sbd!4v1680599254311!5m2!1sen!2sbd" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5430.497231558982!2d-75.75536152352046!3d45 34568943782201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sbd!4v1680599254311!5m2!1sen!2sbd" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
           <!--then I use html table for showing the openign hours-->
           <div class="table">
             <h2>Hours of operation</h2>
-            
+            <table>
+                <tr>
+                  <th>Days</th>
+                  <th>Hours</th>
+                </tr>
+                <tr>
+                  <td>Monday-Friday</td>
+                  <td>9 AM - 6 PM</td>
+                </tr>
+                <tr>
+                  <td>Saturday-Sunday</td>
+                  <td>Closed</td>
+                </tr>
+              </table>
+            <!-- <table cellspacing="0" border="1">
               <tr class="table_title bg-about">
                 <td>Days</td>
                 <td>Hours</td>
@@ -282,7 +291,7 @@ with their unique class name for styling
                 <td>Saturday - Sunday</td>
                 <td>Closed</td>
               </tr>
-            </table>
+            </table> -->
           </div>
         </div>
       </div>
