@@ -11,7 +11,7 @@ body {
   padding: 0;
 }
 
- *:focus I used this cause when user click on input the outline will not show *for all universal input
+/*  *:focus I used this cause when user click on input the outline will not show *for all universal input */
 *:focus {
   outline: none;
 }
@@ -51,6 +51,7 @@ body {
   margin-right: auto;
   box-sizing: border-box;
 }
+
 /* here used flex and to show each element column view */
 
 header {
@@ -60,6 +61,7 @@ header {
   justify-content: space-between;
   padding: 1rem;
 }
+
 /* logo style */
 
 .logo img {
@@ -109,6 +111,7 @@ nav ul li a {
 }
 
 /* here added few style for search-box */
+
 .search-box {
   display: flex;
   align-items: center;
@@ -163,6 +166,7 @@ nav ul li a {
 }
 
 /* this is for hero section's button */
+
 .hero .btn_h {
   display: inline-block;
   padding: 1.5rem 3rem;
@@ -174,6 +178,7 @@ nav ul li a {
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   transition: background-color 0.3s ease;
 }
+
 /* hover effect for hero section's button */
 .hero .btn_h:hover {
   background-color: #c78c06;
@@ -199,6 +204,7 @@ nav ul li a {
   grid-template-columns: 1fr;
   gap: 20px;
 }
+
 /* this is for image it takes 100% of the grid cell in the first column */
 .about-us-image {
   grid-column: 1;
@@ -226,8 +232,7 @@ nav ul li a {
   font-size: 1rem;
   margin: 10px 0;
 }
- /* again this this service section I used flex and each card in row
-  */ 
+ /* again this this service section I used flex and each card in row*/ 
 .services {
   background-color: #f5f5f5;
   padding: 20px 0;
@@ -273,6 +278,7 @@ nav ul li a {
 .card-body p {
   margin-bottom: 30px;
 }
+
 /* this class used for card bbutton */
 .btn {
   display: inline-block;
@@ -300,8 +306,7 @@ nav ul li a {
 }
 
 /* vison section is the simple section 
-I used background image and write few css for few content
-*/
+I used background image and write few css for few content*/
 .vison {
   background-image: url('../img/vision.jpg');
   background-size: cover;
@@ -328,8 +333,8 @@ I used background image and write few css for few content
   margin-bottom: 2rem;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
-/* this class is used for vison section's button style */
 
+/* this class is used for vison section's button style */
 .vison .btn_v {
   display: inline-block;
   padding: 2rem;
@@ -346,8 +351,8 @@ I used background image and write few css for few content
 .play_icon_v {
   margin-left: 1rem;
 }
-/* team section is similar like about us here also used flex */
 
+/* team section is similar like about us here also used flex */
 .team {
   padding: 20px 0;
 }
@@ -417,6 +422,7 @@ hr {
 .team_margin {
   margin-left: 20px;
 }
+
 /* in contact section also used flex for devide elements */
 
 .contact {
@@ -448,6 +454,7 @@ hr {
   margin-top: 2rem;
   font-size: 2rem;
 }
+
 /* this classes used for form design */
 
 form {
@@ -553,6 +560,7 @@ th {
     font-size: 2rem;
   }
 }
+
 /* When width 992px and up those style will work */
 @media (min-width: 992px) {
   header {
@@ -618,6 +626,7 @@ th {
     flex: 1 1 48%;
   }
 }
+
 /* When width 1200px and up those style will work */
 @media (min-width: 1200px) {
   nav ul li {
